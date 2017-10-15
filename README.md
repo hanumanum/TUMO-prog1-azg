@@ -10,3 +10,8 @@ https://github.com/hanumanum/TUMO-prog1-azg/archive/1c0335a8f279c6e41ff1b174c7a1
 ## 4֊րդ դասի սկիզբը
 https://github.com/hanumanum/TUMO-prog1-azg/archive/af3d880708a38fa7c862b7147768a9d271ebeefb.zip
 
+## 5֊րդ դասի սկիզբը
+https://github.com/hanumanum/TUMO-prog1-azg/archive/4c982e8ac5900e7b4b48348201d5ed20fd7a99d7.zip
+
+
+
