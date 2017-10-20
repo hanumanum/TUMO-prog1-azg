@@ -10,23 +10,31 @@ reset() 	                 //սկսել սկզբից, ջնջել ամեն ինչ 
 angle(angle)	   //անկյուն	 
 width(width)       //մատիտի հաստությունը(հաստություն)
 colour(r,g,b) 	   //ընտրել գույն()
+drawTriangle(x,y,h,w,a) //գծել եռանկյուն (x,y,երկարություն, հաստություն, անկյուն);
+drawSquare(x,y,h,w,a) //գծել քառակուսի (x,y,երկարություն, հաստություն, անկյուն);
+randomInt(min,max);  //վերադարձնում է պատահական ամբողջ թիվ (min,max) միջակայքից
+randomArrInt(c,min,max);  //վերադարձնում է պատահական թվերով լցված զանգված (քանակ, մինիմալ, մաքսիմալ)
 */
 
-for(var i = 0; i<30 ; i++){
-    col = randomArrInt(3,0,255);
-    x = randomInt(-200,200);
-    y = randomInt(-200,200);
-    h = randomInt(0,250);
-    w = randomInt(0,5);
-    a = randomInt(0,360);
-    colour(col[0],col[1],col[2]);
-    drawTriangle(x,y,h,w,a);
-}
+
+/* ----- ֆունկցիաների կիրառման տարածքը, կամ հիմնական ծրագիրը ----*/
+//գրիրի՛ ֆունկցիաների կանչերը այստեղ
+
+/*--- end 0f  ֆունկցիաների կիրառման տարածքը, կամ հիմնական ծրագիրը ---*/
+
+
+
+
+
+
+
+
+
+/* ֆունկցիաների հայտարարման տարածք */
 //drawTriangle(x,y,h,w,a)
 //drawTriangle(100,200,120,2,175);
 //drawTriangle(-200,-220,60,1,90);
 //drawSquare(50,50,200,5,45);
-
 function drawTriangle(x,y,h,w,a){
     angle(a);
     goto(x,y);
@@ -60,3 +68,6 @@ function randomInt(min,max){
     var z = Math.floor(Math.random()*(max-min+1))+min;
     return z;
 }
+
+
+/* end of ֆունկցիաների հայտարարման տարածք */
